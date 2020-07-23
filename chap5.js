@@ -1,2 +1,11 @@
+let ipt = document.querySelector('input');
+let btn = document.querySelector('button');
 let elem = document.querySelector('p');
-elem.innerText = 'javascriptで書く';
+
+
+btn.addEventListener('click',() =>{
+    elem.innerText = ipt.value;
+});
+
+// let ipt = document.querySelector('input');
+// let elem = document.querySelector('p');
